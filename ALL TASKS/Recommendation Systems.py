@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 import numpy as np
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
@@ -38,9 +32,6 @@ user_ratings_reduced = collaborative_filtering_svd(ratings_df)
 user_id = 3  # User4
 recommendations = get_recommendations(user_id, ratings_df, user_ratings_reduced)
 print(f"Recommendations for User{user_id + 1}: {recommendations}")
-
-
-# In[ ]:
 
 
 
