@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import math
 
 HUMAN = -1
@@ -112,4 +106,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
