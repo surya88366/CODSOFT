@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 def chatbot():
     print("Hi! I'm a simple chatbot. How can I help you today?")
     
@@ -26,9 +20,6 @@ def chatbot():
 
 if __name__ == "__main__":
     chatbot()
-
-
-# In[ ]:
 
 
 
